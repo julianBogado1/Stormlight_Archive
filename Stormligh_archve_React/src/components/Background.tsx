@@ -1,4 +1,3 @@
-import React from 'react';
 import background from '../assets/stormlight_banner.webp';
 import '../styles/Landing.css';
 

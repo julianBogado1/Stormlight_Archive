@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import {TopBar} from './TopBar';
 import { Background } from './Background';
 import '../styles/Landing.css';
