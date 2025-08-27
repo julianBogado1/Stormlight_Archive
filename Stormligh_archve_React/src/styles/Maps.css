@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+#root{
+    background-color: #1c1931c7;
+}
 .carousel-container {
     max-width: 1000px;
     margin: 0 auto;
@@ -22,7 +25,7 @@
     height: 100%;
 }
 .image-container {
-    justify-content: center;
+    justify-items: center;
     align-items: center;
     background-color: #000;
     overflow: clip;

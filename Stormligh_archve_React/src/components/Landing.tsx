@@ -9,7 +9,7 @@ export const Landing  = ()=> {
 const props = useContext(PropsContext);;
     return (
         <>
-            <TopBar banner={props.banner} buttonString={props.buttonString} />
+            <TopBar banner={'Stormlight Archive'} buttonString={'See Maps!'} />
             <Background />
         </>
     );

@@ -3,6 +3,7 @@ import warcamp from '../assets/Warcamps.jpg';
 import '../styles/Maps.css';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
+import { TopBar } from "./TopBar";
 
 export const Maps= ()=>{
 
@@ -16,19 +17,22 @@ export const Maps= ()=>{
     }
 
     return (
-        <div className="carousel-wrapper">
-            <Carousel activeIndex={map} onSelect={selectIndex} interval={null}>
-                {maps.map((src, idx) => (
-                    <Carousel.Item key={idx}>
-                        <div className="image-container">
-                            <img src={src} alt={`Map ${idx}`} />
-                        </div>
-                        <Carousel.Caption>
-                            <h3>Map {idx + 1}</h3>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                ))}
-            </Carousel>
-        </div>
+        <> 
+            <TopBar banner="Maps" buttonString="Back Home"/>
+            <div className="carousel-wrapper">
+                <Carousel activeIndex={map} onSelect={selectIndex} interval={null}>
+                    {maps.map((src, idx) => (
+                        <Carousel.Item key={idx}>
+                            <div className="image-container">
+                                <img src={src} alt={`Map ${idx}`} />
+                            </div>
+                            <Carousel.Caption>
+                                <h3>Map {idx + 1}</h3>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    ))}
+                </Carousel>
+            </div>
+        </>
     )
 }
