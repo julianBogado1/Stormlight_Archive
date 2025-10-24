@@ -33,5 +33,54 @@
         "description": "Description for Item 5",
         "price": 49.99,
         "image": "/imgs/twok.webp"
+    },
+    {
+        "id": 6,
+        "name": "Item 6",
+        "description": "Description for Item 6",
+        "price": 59.99,
+        "image": "/imgs/twok.webp"
+    },
+    {
+        "id": 7,
+        "name": "Item 7",
+        "description": "Description for Item 7",
+        "price": 69.99,
+        "image": "/imgs/twok.webp"
+    },
+    {
+        "id": 8,
+        "name": "Item 8",
+        "description": "Description for Item 8",
+        "price": 79.99,
+        "image": "/imgs/twok.webp"
+    },
+    {
+        "id": 9,
+        "name": "Item 9",
+        "description": "Description for Item 9",
+        "price": 89.99,
+        "image": "/imgs/twok.webp"
+    },
+    {
+        "id": 10,
+        "name": "Item 10",
+        "description": "Description for Item 10",
+        "price": 99.99,
+        "image": "/imgs/twok.webp"
+    },
+    {
+        "id": 11,
+        "name": "Item 11",
+        "description": "Description for Item 11",
+        "price": 109.99,
+        "image": "/imgs/twok.webp"
+    },
+    {
+        "id": 12,
+        "name": "Item 12",
+        "description": "Description for Item 12",
+        "price": 119.99,
+        "image": "/imgs/twok.webp"
     }
 ]

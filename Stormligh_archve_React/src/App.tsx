@@ -1,11 +1,11 @@
 import { createContext} from 'react'
 import './App.css'
 import {Landing} from './components/Landing';
-import type { TopBar } from './components/TopBar';
-
+import type { TopBar, TopBarProps } from './components/TopBar';
+  
 const banner = "Stormlight Archive";
 const buttonString = "See Maps!";
-export const PropsContext = createContext<TopBar>({banner: "", buttonString: ""});
+export const PropsContext = createContext<TopBarProps>({banner: "", buttonString: ""});
 
 function App() {
 
