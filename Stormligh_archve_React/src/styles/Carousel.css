@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+    border-radius: 11px;
+    background-position: center;
+    background-size: cover;
+    background-image: none;
+}
