@@ -11,6 +11,12 @@ export function Carousel({slides} : CarouselProps) {
     const [index, setIndex] = useState(0);
 
 
+    if (!slides || slides.length === 0) {
+        return <div style={{ height: 200, display: "grid", placeItems: "center" }}>No slides</div>;
+    } 
+
+
+
     const carouselStyle : React.CSSProperties = {
         height: "100%",
         position: "relative",
@@ -46,8 +52,10 @@ export function Carousel({slides} : CarouselProps) {
 
 
     const nextIndex=(next:number)=>{
-        setIndex((index + next) % slides.length);
+        setIndex((prev) => (prev + next + slides.length) % slides.length);
     }
+
+
     return (
         <div style={carouselStyle}>
             <div style={slideStyle}></div>
